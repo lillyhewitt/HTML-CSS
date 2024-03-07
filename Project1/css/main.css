@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto Slab";
+}
+
+#bumper {
+  height: 3px;
+  background-color: #65e4e6;
+}
+
+nav {
+  padding: 5px 470px;
+  background-color: #3ec5c7;
+  font-size: 22px;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 15px 20px;
+  background-color: #65e4e6;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+header {
+  color: white;
+  font-size: 160px;
+  padding: 450px;
+  text-align: center;
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+#hero {
+  background-image: url("../images/spring-colored-birds-flirting.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.subpage {
+  background-image: url("../images/nzp-20090127-0422mm-000002.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  padding: 0px 30px;
+  gap: 20px;
+  align-items: center;
+  margin: 75px;
+}
+
+.column {
+  margin: 10px;
+}
+
+img {
+  max-width: 720px;
+  width: auto;
+  height: 500px;
+  object-fit: fill;
+  object-position: left;
+}
+
+h2 {
+  color: #3ec5c7;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+#facts {
+  background-color: #3ec5c7;
+  height: 390px;
+  display: flex;
+  padding: 0px 25px;
+  font-size: 18px;
+  color: white;
+}
+
+.row {
+  padding: 35px 70px;
+}
+
+.row h2 {
+  padding: 20px;
+  background-color: rgb(236, 135, 152);
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-family: "Roboto Slab";
+}
+
+.quote {
+  align-items: center;
+  font-size: 24px;
+  padding: 0px 50px;
+  color: white;
+  height: 450px;
+  width: 450px;
+  background-color: rgb(236, 135, 152);
+  border-radius: 100%;
+}
+
+.quote blockquote {
+  text-align: center;
+  padding: 190px 20px;
+}
