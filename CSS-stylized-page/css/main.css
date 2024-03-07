@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+
+section {
+  height: 750px;
+  width: 100%;
+  background-size: cover;
+}
+#section-one {
+  background-image: url("../images/landscape1.jpg");
+}
+#section-two {
+  background-image: url("../images/landscape2.jpg");
+}
+#section-three {
+  background-image: url("../images/landscape3.jpg");
+}
+#section-four {
+  background-image: url("../images/landscape4.jpg");
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
