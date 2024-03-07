@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    background-color: #343434;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    background-color: white;
+}
+
+.column {
+    display: inline-block;
+    width: 25%;
+    padding: 10px 30px;
+}
+
+.wide {
+    width: 50%;
+}
